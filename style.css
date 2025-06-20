@@ -88,7 +88,7 @@ color: var(--Very-Dark-Grayish-Blue);
 color: var(--Grayish-Blue);
 }
 
-.caption button{
+.caption .button{
     position: relative;
     height: 40px;
     width: 40px;
@@ -99,7 +99,7 @@ color: var(--Grayish-Blue);
     transition: all;
     transition-duration: 150ms;
 }
-.caption button:hover{
+.caption .button:hover{
     height: 40px;
     width: 40px;
     border: none;
@@ -111,7 +111,7 @@ color: var(--Grayish-Blue);
     background-color: var(--Very-Dark-Grayish-Blue) !important;
     color: var(--Light-Grayish-Blue)!important;
 }
-.caption button img {
+.caption .button img {
     height: 16px;
 }
 
@@ -195,7 +195,7 @@ color: var(--Grayish-Blue);
     font-size: 0.9rem;
 }
 .userInfo p {
-    line-height: auto;
+    line-height: 16px;
     margin: 0;
 }
 #tooltip{
